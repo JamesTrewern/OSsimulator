@@ -1,0 +1,60 @@
+Simulation Settings: time slice: 20, CPU Core Count: 1
+Clock Cycle (0): Process 0 started
+Clock Cycle (0): Process 1 started
+Clock Cycle (0): Process 2 started
+Clock Cycle (0): Process 3 started
+Clock Cycle (1): Core 0 switched to process 0
+Clock Cycle (3): process 0 given lock on resource 0
+Clock Cycle (22): Core 0 switched to process 1
+Clock Cycle (24): process 1 given lock on resource 1
+Clock Cycle (43): Core 0 switched to process 2
+Clock Cycle (45): process 2 given lock on resource 2
+Clock Cycle (64): Core 0 switched to process 3
+Clock Cycle (66): process 3 denied lock on resource 2 to prevent deadlock
+Clock Cycle (67): Core 0 switched to process 0
+Clock Cycle (88): Core 0 switched to process 1
+Clock Cycle (109): Core 0 switched to process 2
+Clock Cycle (130): Core 0 switched to process 0
+Clock Cycle (132): Core 0 switched to process 1
+Clock Cycle (133): process 1 given lock on resource 2
+Clock Cycle (153): Core 0 switched to process 2
+Clock Cycle (155): Core 0 switched to process 1
+Clock Cycle (177): Core 0 switched to process 1
+Clock Cycle (198): process 1 released lock on resource 1
+Clock Cycle (198): process 1 released lock on resource 2
+Clock Cycle (198): Core0 added 1 to finsished process
+Clock Cycle (198): Core 0 switched to process 0
+Clock Cycle (199): process 0 given lock on resource 1
+Clock Cycle (219): Core 0 switched to process 3
+Clock Cycle (220): process 3 given lock on resource 2
+Clock Cycle (240): Core 0 switched to process 0
+Clock Cycle (261): Core 0 switched to process 3
+Clock Cycle (282): Core 0 switched to process 0
+Clock Cycle (303): process 0 released lock on resource 0
+Clock Cycle (303): process 0 released lock on resource 1
+Clock Cycle (303): Core0 added 0 to finsished process
+Clock Cycle (303): Core 0 switched to process 3
+Clock Cycle (324): Core 0 switched to process 2
+Clock Cycle (325): process 2 given lock on resource 0
+Clock Cycle (345): Core 0 switched to process 3
+Clock Cycle (366): Core 0 switched to process 2
+Clock Cycle (387): Core 0 switched to process 3
+Clock Cycle (408): Core 0 switched to process 2
+Clock Cycle (429): Core 0 switched to process 3
+Clock Cycle (450): Core 0 switched to process 2
+Clock Cycle (471): Core 0 switched to process 3
+Clock Cycle (492): Core 0 switched to process 2
+Clock Cycle (513): Core 0 switched to process 3
+Clock Cycle (523): process 3 released lock on resource 2
+Clock Cycle (523): Core0 added 3 to finsished process
+Clock Cycle (523): Core 0 switched to process 2
+Clock Cycle (534): process 2 released lock on resource 2
+Clock Cycle (534): process 2 released lock on resource 0
+Clock Cycle (534): Core0 added 2 to finsished process
+Clock Cycle (535): simulation finished
+Simulation finished after 535 clock cycles
+Process 0 total wait time: 196
+Process 1 total wait time: 93
+Process 2 total wait time: 374
+Process 3 total wait time: 363
+Total wait time: 1026

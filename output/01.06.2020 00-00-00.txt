@@ -1,0 +1,47 @@
+Simulation Settings: time slice: 20, CPU Core Count: 1
+Clock Cycle (0): Process 0 started
+Clock Cycle (0): Process 1 started
+Clock Cycle (1): Core 0 switched to process 0
+Clock Cycle (3): process 0 given lock on resource 0
+Clock Cycle (20): Process 2 started
+Clock Cycle (22): Core 0 switched to process 1
+Clock Cycle (24): process 1 denied lock on resource 1 to prevent deadlock
+Clock Cycle (25): Core 0 switched to process 0
+Clock Cycle (40): Process 3 started
+Clock Cycle (46): Core 0 switched to process 2
+Clock Cycle (67): Core 0 switched to process 0
+Clock Cycle (78): process 0 given lock on resource 1
+Clock Cycle (88): Core 0 switched to process 3
+Clock Cycle (109): Core 0 switched to process 0
+Clock Cycle (130): Core 0 switched to process 2
+Clock Cycle (151): Core 0 switched to process 0
+Clock Cycle (172): process 0 released lock on resource 0
+Clock Cycle (172): process 0 released lock on resource 1
+Clock Cycle (172): Core0 added 0 to finsished process
+Clock Cycle (172): Core 0 switched to process 3
+Clock Cycle (193): Core 0 switched to process 1
+Clock Cycle (194): process 1 given lock on resource 1
+Clock Cycle (214): Core 0 switched to process 2
+Clock Cycle (235): Core 0 switched to process 3
+Clock Cycle (256): Core 0 switched to process 1
+Clock Cycle (277): Core 0 switched to process 2
+Clock Cycle (298): Core 0 switched to process 3
+Clock Cycle (314): Core0 added 3 to finsished process
+Clock Cycle (314): Core 0 switched to process 1
+Clock Cycle (324): process 1 given lock on resource 0
+Clock Cycle (335): Core 0 switched to process 2
+Clock Cycle (356): Core 0 switched to process 1
+Clock Cycle (377): Core 0 switched to process 2
+Clock Cycle (398): Core 0 switched to process 1
+Clock Cycle (418): process 1 released lock on resource 1
+Clock Cycle (418): process 1 released lock on resource 0
+Clock Cycle (418): Core0 added 1 to finsished process
+Clock Cycle (418): Core 0 switched to process 2
+Clock Cycle (425): Core0 added 2 to finsished process
+Clock Cycle (426): simulation finished
+Simulation finished after 426 clock cycles
+Process 0 total wait time: 67
+Process 1 total wait time: 311
+Process 2 total wait time: 272
+Process 3 total wait time: 195
+Total wait time: 845

@@ -1,0 +1,83 @@
+{
+  "processes": [
+    {
+      "name": "p0",
+      "cyclesRequired": 100,
+      "priority": 1,
+      "resourceRequestPoints": [
+        {
+        "programCounter" : 1,
+        "resourceID": 0
+        },
+        {
+          "programCounter": 50,
+          "resourceID": 1
+        }      
+      ],
+      "resourceReleasePoints": [
+      ],
+      "entryPoint": 0
+    },
+    {
+      "name": "p1",
+      "cyclesRequired": 100,
+      "priority": 2,
+      "resourceRequestPoints": [
+        {
+          "programCounter": 1,
+          "resourceID": 1
+        },
+        {
+          "programCounter": 50,
+          "resourceID": 0
+        }
+
+      ],
+      "resourceReleasePoints": [
+      ],
+      "entryPoint": 0
+    },
+    {
+      "name": "p2",
+      "cyclesRequired": 100,
+      "priority": 3,
+      "resourceRequestPoints": [
+        {
+          "programCounter": 1,
+          "resourceID": 0
+        },
+        {
+          "programCounter": 1,
+          "resourceID": 1
+        }
+      ],
+      "resourceReleasePoints": [
+
+      ],
+      "entryPoint": 0
+    },
+    {
+      "name": "p3",
+      "cyclesRequired": 50,
+      "priority": 2,
+      "resourceRequestPoints": [
+
+      ],
+      "resourceReleasePoints": [
+
+      ],
+      "entryPoint": 40
+    }
+  ],
+  "systemResources": [
+    {
+      "intanceCount": 1
+    },
+    {
+      "intanceCount": 1
+    },
+    {
+      "intanceCount": 1
+    }
+  ]
+}
